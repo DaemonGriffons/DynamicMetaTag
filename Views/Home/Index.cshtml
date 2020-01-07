@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    ViewData["canonical"] = Context.Request.Scheme + "://" + Context.Request.Host + Context.Request.Path;
+    ViewData["ImageUrl"] = "~/images/anime3.png";
+    ViewData["Category"] = "Category of The article";
+    ViewData["Publish"] = DateTime.Now.ToString();
+    ViewData["Modified"] = DateTime.Now.ToString();
+
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

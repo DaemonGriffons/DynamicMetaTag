@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+    ViewData["canonical"] = Context.Request.Scheme + "://" + Context.Request.Host + Context.Request.Path;
+    ViewData["ImageUrl"] = "~/images/anime3.png";
+    ViewData["Category"] = "Category of The article";
+    ViewData["Publish"] = DateTime.Now.ToString();
+    ViewData["Modified"] = DateTime.Now.ToString();
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
